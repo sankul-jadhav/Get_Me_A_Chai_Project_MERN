@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+.invertImg{
+    filter: invert(0.23);
+}
+
+@keyframes slideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.chai-text {
+  animation: slideFromLeft 1s ease-out;
+}
+
+.chai-img {
+  animation: slideFromRight 1s ease-out;
+}
+
+
+
+
+
+@keyframes supportFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes supportFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.support-text-animation {
+    animation: supportFromLeft 1s ease-out;
+}
+
+.support-img-animation {
+    animation: supportFromRight 1s ease-out;
+}
