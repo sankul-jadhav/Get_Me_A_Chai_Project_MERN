@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className='bg-blue-900 text-white flex justify-between px-4 md:h-16 items-center flex-col md:flex-row pb-3 md:pb-0'>
       <Link href={"/"} className="logo font-bold text-lg flex justify-center items-center gap-2">
         <img className='invertImg' width={44} src="tea.gif" alt="" />
-        <span className='text-4xl md:text-xl my-3 md:my-0 bg-linear-to-br from-pink-600 to-blue-500 hover:bg-linear-to-bl  bg-clip-text text-transparent transition-all duration-300'>GetMeChai!</span>
+        <span className='text-4xl md:text-xl my-3 md:my-0 bg-linear-to-br from-pink-600 to-blue-500 hover:bg-linear-to-bl  bg-clip-text text-transparent transition-all duration-300'>LetMeChai!</span>
       </Link>
       <div className='relative flex flex-col gap-4 md:flex-row'>
         {session &&
